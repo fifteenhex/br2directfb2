@@ -1,0 +1,3 @@
+source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/directfb2/Config.in"
+source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/directfb2-examples/Config.in"
+source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/flux/Config.in"

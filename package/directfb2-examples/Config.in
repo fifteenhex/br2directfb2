@@ -1,0 +1,5 @@
+config BR2_PACKAGE_DIRECTFB2_EXAMPLES
+	bool "directfb2-examples"
+	depends on BR2_PACKAGE_DIRECTFB2
+	help
+	  DirectFB2 example programs.

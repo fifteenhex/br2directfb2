@@ -1,0 +1,17 @@
+config BR2_PACKAGE_DIRECTFB2
+	bool "directfb2"
+	select FLUX
+	help
+	  DirectFB2 is a fork of DirectFB.
+
+config BR2_PACKAGE_DIRECTFB2_MULTI
+	bool "enable multiple application support"
+	depends on BR2_PACKAGE_DIRECTFB2
+
+config BR2_PACKAGE_DIRECTFB2_DRMKMS
+	bool "DRM/KMS backend"
+	depends on BR2_PACKAGE_DIRECTFB2
+
+config BR2_PACKAGE_DIRECTFB2_FBDEV
+	bool "fbdev backend"
+	depends on BR2_PACKAGE_DIRECTFB2
