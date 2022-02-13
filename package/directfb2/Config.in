@@ -1,6 +1,7 @@
 config BR2_PACKAGE_DIRECTFB2
 	bool "directfb2"
-	select FLUX
+	depends on !BR2_PACKAGE_DIRECTFB
+	select BR2_PACKAGE_FLUX
 	help
 	  DirectFB2 is a fork of DirectFB.
 
