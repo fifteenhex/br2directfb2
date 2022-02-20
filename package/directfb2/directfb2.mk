@@ -4,8 +4,8 @@
 #
 ################################################################################
 
-DIRECTFB2_VERSION = 30e3ebe19e9b94a9fedba565fa2b55de30f98cbc
-DIRECTFB2_SITE = https://github.com/directfb2/DirectFB2.git
+DIRECTFB2_VERSION = c72579f6973541c571dd09df6cf748b0eec16198
+DIRECTFB2_SITE = https://github.com/fifteenhex/DirectFB2.git
 DIRECTFB2_SITE_METHOD = git
 DIRECTFB2_DEPENDENCIES = host-flux
 DIRECTFB2_LICENSE = LGPL-2.1
