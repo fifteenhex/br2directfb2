@@ -33,6 +33,7 @@ endif
 
 ifeq ($(BR2_PACKAGE_DIRECTFB2_DRMKMS),y)
 DIRECTFB2_CONF_OPTS += -Ddrmkms=true
+DIRECTFB2_DEPENDENCIES += libdrm
 else
 DIRECTFB2_CONF_OPTS += -Ddrmkms=false
 endif
