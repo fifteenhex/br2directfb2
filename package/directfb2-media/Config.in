@@ -1,0 +1,6 @@
+config BR2_PACKAGE_DIRECTFB2_MEDIA
+	bool "directfb2-media"
+	depends on BR2_PACKAGE_DIRECTFB2
+	depends on BR2_PACKAGE_HAS_JPEG
+	help
+	  DirectFB2 media programs.
