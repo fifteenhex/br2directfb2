@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-DIRECTFB2_VERSION = 02c17e4e881b420b62f277812661367965bb2351
+DIRECTFB2_VERSION = d5085168a6786577fe038e926b89f4c4206e748e
 DIRECTFB2_SITE = https://github.com/fifteenhex/DirectFB2.git
 DIRECTFB2_SITE_METHOD = git
 DIRECTFB2_DEPENDENCIES = host-flux
