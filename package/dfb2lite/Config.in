@@ -1,0 +1,5 @@
+config BR2_PACKAGE_DFB2LITE
+	bool "DirectFB2 LiTE"
+	depends on BR2_PACKAGE_DIRECTFB2
+	help
+	  lite toolkit for dfb2

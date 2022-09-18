@@ -1,0 +1,5 @@
+config BR2_PACKAGE_DFBTERM
+	bool "dfbterm"
+	depends on BR2_PACKAGE_DFB2LITE
+	help
+	  Terminal emulator for DirectFB2
