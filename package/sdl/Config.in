@@ -1,0 +1,7 @@
+if BR2_PACKAGE_SDL
+
+config BR2_PACKAGE_SDL_DIRECTFB2
+        bool "SDL DirectFB2 video driver"
+        depends on BR2_PACKAGE_DIRECTFB2
+
+endif
