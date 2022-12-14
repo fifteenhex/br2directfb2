@@ -1,0 +1,5 @@
+config BR2_PACKAGE_DIRECTFB2_TOOLS
+	bool "directfb2-tools"
+	depends on BR2_PACKAGE_DIRECTFB2
+	help
+	  DirectFB2 tools.

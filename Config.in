@@ -1,6 +1,7 @@
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/directfb2/Config.in"
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/directfb2-examples/Config.in"
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/directfb2-media/Config.in"
+source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/directfb2-tools/Config.in"
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/dfbterm/Config.in"
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/flux/Config.in"
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/dfb2lite/Config.in"
