@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-DIRECTFB2_VERSION = 8b3f6f93f94d5aab392c186c08e0d0239d03cf93
+DIRECTFB2_VERSION = e7087370cd4a7de5b629bcbe30f07d5420765dc2
 DIRECTFB2_SITE = https://github.com/fifteenhex/DirectFB2.git
 DIRECTFB2_SITE_METHOD = git
 DIRECTFB2_DEPENDENCIES = host-flux
@@ -42,6 +42,12 @@ ifeq ($(BR2_PACKAGE_DIRECTFB2_FBDEV),y)
 DIRECTFB2_CONF_OPTS += -Dfbdev=true
 else
 DIRECTFB2_CONF_OPTS += -Dfbdev=false
+endif
+
+ifeq ($(BR2_PACKAGE_DIRECTFB2_STEREO),y)
+DIRECTFB2_CONF_OPTS += -Dstereo=true
+else
+DIRECTFB2_CONF_OPTS += -Dstereo=false
 endif
 
 $(eval $(meson-package))

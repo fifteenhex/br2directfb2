@@ -17,3 +17,7 @@ config BR2_PACKAGE_DIRECTFB2_DRMKMS
 config BR2_PACKAGE_DIRECTFB2_FBDEV
 	bool "fbdev backend"
 	depends on BR2_PACKAGE_DIRECTFB2
+
+config BR2_PACKAGE_DIRECTFB2_STEREO
+	bool "Stereo display support"
+	depends on BR2_PACKAGE_DIRECTFB2
