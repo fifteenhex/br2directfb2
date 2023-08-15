@@ -5,6 +5,7 @@ source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/directfb2-tools/Config.in"
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/dfbterm/Config.in"
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/flux/Config.in"
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/dfb2lite/Config.in"
+source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/portablegl/Config.in"
 #hacks
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/sdl/Config.in"
 source "$BR2_EXTERNAL_DIRECTFB2_PATH/package/sdl2/Config.in"
