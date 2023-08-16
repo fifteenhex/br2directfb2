@@ -1,0 +1,5 @@
+config BR2_PACKAGE_DIRECTFB2_CSOURCE
+	bool "directfb2-csource"
+	depends on BR2_PACKAGE_DIRECTFB2
+	help
+	  DirectFB2 csource.
